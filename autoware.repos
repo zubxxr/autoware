@@ -37,26 +37,12 @@ repositories:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
     version: tier4/universe
-  universe/external/morai_msgs:
-    type: git
-    url: https://github.com/MORAI-Autonomous/MORAI-ROS2_morai_msgs.git
-    version: main
-  universe/external/muSSP:
-    type: git
-    url: https://github.com/tier4/muSSP.git
-    version: tier4/main
+
   universe/external/ndt_omp:
     type: git
     url: https://github.com/tier4/ndt_omp.git
     version: tier4/main
-  universe/external/pointcloud_to_laserscan:
-    type: git
-    url: https://github.com/tier4/pointcloud_to_laserscan.git
-    version: tier4/main
-  universe/external/eagleye:
-    type: git
-    url: https://github.com/MapIV/eagleye.git
-    version: autoware-main
+
   universe/external/rtklib_ros_bridge:
     type: git
     url: https://github.com/MapIV/rtklib_ros_bridge.git
@@ -100,10 +86,18 @@ repositories:
     type: git
     url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
     version: main
+  sensor_kit/r2_sensor_kit_launch
+    type: git
+    url: https://github.com/zubxxr/r2_sensor_kit_launch.git
+    version: main
   # vehicle
   vehicle/sample_vehicle_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_vehicle_launch.git
+    version: main
+  vehicle/r2_vehicle_launch:
+    type: git
+    url: https://github.com/ahmaad-ansari/r2_vehicle_launch.git
     version: main
   vehicle/external/pacmod_interface:
     type: git
