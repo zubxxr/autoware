@@ -34,7 +34,7 @@ repositories:
   universe/autoware.universe:
     type: git
     url: https://github.com/zubxxr/autoware_universe.git
-    version: release/2024.11
+    version: avp-framework-panel
   universe/external/tier4_ad_api_adaptor:
     type: git
     url: https://github.com/tier4/tier4_ad_api_adaptor.git
@@ -78,7 +78,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/zubxxr/autoware_launch
-    version: release/2024.11
+    version: avp-framework-panel
   sensor_component/external/sensor_component_description:
     type: git
     url: https://github.com/tier4/sensor_component_description.git
