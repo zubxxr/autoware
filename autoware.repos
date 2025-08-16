@@ -34,7 +34,7 @@ repositories:
   universe/autoware.universe:
     type: git
     url: https://github.com/zubxxr/autoware_universe.git
-    version: avp-framework-panel
+    version: avp-release/2025.08
   universe/external/tier4_ad_api_adaptor:
     type: git
     url: https://github.com/tier4/tier4_ad_api_adaptor.git
